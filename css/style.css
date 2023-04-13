@@ -1,0 +1,145 @@
+body{
+
+    background-color:#dbd6c8;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+.main-navbar{
+    display:grid;
+    grid-template-columns:200px 1fr;
+    text-align:right;
+    align-items:center;
+}
+
+
+
+button{
+
+    margin-right:20px;
+}
+
+
+.delete-checkbox{
+
+    position:relative;
+    right:130px;
+    top:4px;
+    
+}
+
+
+.MainForm{
+
+
+    margin-top:20px;
+    display:grid;
+    grid-template-columns:100px 200px;
+    margin-left:20px;
+    grid-template-rows:1fr 1fr 1fr;
+}
+
+
+.MainForm > input{
+
+    margin-top:10px;
+}
+
+.MainForm > label{
+
+    margin-top:10px;
+}
+
+
+
+.dropdown{
+
+    margin-top:50px;
+    margin-left:20px;
+
+}
+
+
+.dropdown > label{
+
+
+    margin-right:10px;
+
+}
+
+
+.size-weight{
+
+
+    
+    margin-top:20px;
+    display:grid;
+    grid-template-columns:100px 200px;
+    margin-left:20px;
+    grid-template-rows:1fr;
+
+}
+
+
+
+p{
+    margin-left:20px;
+}
+
+
+
+.button-submit{
+    
+  margin-right:20px;
+}
+
+
+.DisplayForm{
+
+    margin-top:20px;
+    display:grid;
+    grid-template-columns:300px 300px 300px 300px;
+    margin-left:14%;
+    margin-top:5%;
+    grid-template-rows:1fr 1fr 1fr 1fr; 
+    height:50%;
+    width:70%;
+    align-items:center;
+    column-gap:50px;
+    row-gap:50px;
+    
+}
+
+
+.test-boxes{
+
+    border:2px solid black;
+    height:150px;
+    width:300px;
+    text-align:center;
+    justify-content:center;
+    text-align:center;
+}
+
+
+
+
+
+.product-tbl{
+
+
+    justify-content:center;
+    text-align:center;
+    align-content:center;
+    position:relative;
+    left:20%;
+    width:200px;
+    height:100px;
+}
+
+
+
+.scandiweb-p{
+
+    text-align:center;
+}
